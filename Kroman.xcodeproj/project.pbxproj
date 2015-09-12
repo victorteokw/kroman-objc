@@ -10,6 +10,8 @@
 		1B8937E41BA4594C00DECA7F /* Kroman.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B8937E31BA4594C00DECA7F /* Kroman.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B8937EB1BA4594C00DECA7F /* Kroman.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8937E01BA4594C00DECA7F /* Kroman.framework */; settings = {ASSET_TAGS = (); }; };
 		1B8937F01BA4594C00DECA7F /* KromanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8937EF1BA4594C00DECA7F /* KromanTests.m */; };
+		1BCACF8E1BA45994006D93E8 /* Kroman.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCACF8D1BA45994006D93E8 /* Kroman.m */; settings = {ASSET_TAGS = (); }; };
+		1BCACF8F1BA45994006D93E8 /* Kroman.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BCACF8D1BA45994006D93E8 /* Kroman.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 		1B8937EA1BA4594C00DECA7F /* KromanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KromanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8937EF1BA4594C00DECA7F /* KromanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KromanTests.m; sourceTree = "<group>"; };
 		1B8937F11BA4594C00DECA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BCACF8D1BA45994006D93E8 /* Kroman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kroman.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				1B8937E31BA4594C00DECA7F /* Kroman.h */,
+				1BCACF8D1BA45994006D93E8 /* Kroman.m */,
 				1B8937E51BA4594C00DECA7F /* Info.plist */,
 			);
 			path = Kroman;
@@ -193,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BCACF8E1BA45994006D93E8 /* Kroman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B8937F01BA4594C00DECA7F /* KromanTests.m in Sources */,
+				1BCACF8F1BA45994006D93E8 /* Kroman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +380,7 @@
 				1B8937F61BA4594C00DECA7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B8937F71BA4594C00DECA7F /* Build configuration list for PBXNativeTarget "KromanTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +389,7 @@
 				1B8937F91BA4594C00DECA7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
